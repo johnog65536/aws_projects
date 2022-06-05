@@ -7,7 +7,7 @@ Happy to take builds - just send in a PR. <br />
 In suggested order of applying the projects
 
 ## Beginner Projects:
-* Initial [accounts](beginner/create_accounts.md) creation
+* Initial [account](beginner/create_accounts.md) creation
 * Initial [website](beginner/create_basic_website.md) creation
 
 ## Intermediate Projects:

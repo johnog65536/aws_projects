@@ -1,7 +1,7 @@
-# Making the apps production like
+# Making the apps production like __in each of dev, test and prod__
 
 1. Move from hello world static website to a little Java app with an AuroraDB back end, with connection strings in Parameter Store
-    1. Make sure the D B is in a private subnet, with no access to/from internet
+    1. Make sure the DB is in a private subnet, with no access to/from internet
     2. Update the pipeline to compile, package and deploy the code + DB schema
     3. Update the pipelines to perform static analysis / CVE scanning
     4. Update the pipeline to perform unit tests

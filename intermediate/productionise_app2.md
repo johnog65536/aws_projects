@@ -1,4 +1,4 @@
-Make the website more realistic
+# Make the website more realistic
 1. Move from hello world static website to a little Java app with an AuroraDB back end, with connection strings in Parameter Store
     1. Make sure the D B is in a private subnet, with no access to/from internet
     2. Update the pipeline to compile, package and deploy the code + DB schema

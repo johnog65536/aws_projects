@@ -5,6 +5,6 @@ Happy to take builds - just send in a PR. <br />
 
 Contents:
 * Beginner Projects:
-** [Create Accounts](beginner/create_accounts.md)  
+.* [Create Accounts](beginner/create_accounts.md)  
 ** [Initial Website](beginner/create_basic_website.md)
 * Intermediate Projects:

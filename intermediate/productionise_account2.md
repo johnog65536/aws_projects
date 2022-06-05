@@ -1,4 +1,4 @@
-Adding app to app and tenant complexity
+# Adding app to app and tenant complexity
 1. 2nd app
     1. Create another account in each OU, and deploy a simple application via pipelines (also setup monitoring & alerting )
     2. Create vpc peering allowing the first application to talk to the second & get a response, check access via VPC flow logs

@@ -16,5 +16,3 @@
     3. Merge to get branch & deploy to test / validate it doesn’t appear in prod
     4. Merge to prod & validate it now appears in prod
     5.  Validate dev users can’t manipulate the test account/website/pipelines & vice versa, but the admin users can
-7. Encrypt the EFS storage and any AMIs/S3 buckets (recreate if needed)
-8. Create a security account and forward all CloudTrail and CloudWatch logs to it + set up users and a log console

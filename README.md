@@ -18,5 +18,6 @@ In suggested order of applying the projects
 ## Advanced Projects
 * Productionise the [website](advanced/productionise_app.md)
 * Productionise the [account](advanced/productionise_account.md) 
+* [Operational](advanced/operational_improvements.ms) improvements
 * Disaster [scenarios](advanced/disaster_scenarios.md)
 * Get [hacked](advanced/get_hacked.md)

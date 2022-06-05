@@ -3,7 +3,7 @@ Some things to build in aws organised as a series mini projects that make an app
 
 Happy to take builds - just send in a PR. <br />
 
-#Contents:
+# Contents:
 In suggested order of applying the projects
 
 ## Beginner Projects:

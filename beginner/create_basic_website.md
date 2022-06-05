@@ -1,4 +1,4 @@
-Create an initial, and basic website
+# Create an initial, and basic website
 1. Deploy an apache2 webserver & hello world page stored on the local EBS volume
 2. Register a domain, put a DNS entry in r53 for the app with 1 minute TTL
 3. Move the content off the webserver’s local disk, onto EFS

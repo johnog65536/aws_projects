@@ -9,10 +9,12 @@ In suggested order of applying the projects
 ## Beginner Projects:
 * Initial [account](beginner/create_accounts.md) creation
 * Initial [website](beginner/create_basic_website.md) creation
+* Operational [improvements](beginner/operational_improvements.md) 
 
 ## Intermediate Projects:
 * Productionise the [account](intermediate/productionise_account.md) 
 * Productionise the [website](intermediate/productionise_app.md) 
+* Operational [improvements](intermediate/operational_improvements.md) 
 * Disaster [scenarios](intermediate/disaster_scenarios.md) 
 
 ## Advanced Projects

@@ -12,6 +12,5 @@
     4. Create an account / tenant vending scheme with CIDR allocation policies
 3. More sophisticated networking
     1. Simulate an on prem connection off the central transit gateway & validate routing from each tenant
-    2. Add an ops vpn to central TGW required to access each database
-    3. Add a centrally managed internet connection (ie for downloading patches) to the central TGW with traffic inspection, and test downloads
+    2. Add a centrally managed internet connection (ie for downloading patches) to the central TGW with traffic inspection, and test downloads
 4. Move to ASEA (start in a separate AWS account)

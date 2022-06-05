@@ -5,6 +5,7 @@
 2. Patch/upgrade and backup/recover the AD via automation (2 hours)
 3. Create a process to manually back up and restore each database + test (2 hours)
 4. Make sure all the monitoring, alerting (etc) are provisioned using Infra as code (1 hour)
+5. Update monitoring to use x-ray for distributed trace/analaysis, construt more detailed dashboards showing the app-to-app communications (2 hours)
 
 ## Futher Improvements
 **Note:** these activities assume a hub and spoke network archtiecture has already been implemented

@@ -10,7 +10,4 @@
         1. Website -> tenant1 TGW -> 2nd app
         2. Website -> tenant1 TGW -> central TGW + traffic inspection -> tenant 2 TGW -> 3rd app
     4. Create an account / tenant vending scheme with CIDR allocation policies
-3. More sophisticated networking
-    1. Simulate an on prem connection off the central transit gateway & validate routing from each tenant
-    2. Add a centrally managed internet connection (ie for downloading patches) to the central TGW with traffic inspection, and test downloads
-4. Move to ASEA (start in a separate AWS account)
+3. Move to ASEA (start in a separate AWS account)

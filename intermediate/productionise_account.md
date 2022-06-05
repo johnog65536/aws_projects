@@ -8,3 +8,8 @@ Make the account more production like:
     3. Prove a user in the admin group can access all accounts
     4. Prove admin users get more permissions than dev/test users - e.g can see billing console
     5. Use SCPs to control what regions each OU can provision into
+3. Account management
+    1. Create 2 further accunts in the organisation
+    2. Close an account
+    3. Kick an account out of the org
+

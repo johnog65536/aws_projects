@@ -1,10 +1,20 @@
-Make the account more production like:
-1. Set up an AD, and a windows instance to manage the AD / its users
-    1. Create dev, test, prod, and admin groups & put some users into each
-    2. Use LDAP search to prove you can pull back users and group membership
-2. Set up an AWS Organisation with dev, test and prod OUs each with at least one AWS account
-    1. Get SSO working for the users in the AD via command line and web console 
-    2. Prove a user in the Dev group can access the Dev OU accounts & not Test accounts. 
-    3. Prove a user in the admin group can access all accounts
-    4. Prove admin users get more permissions than dev/test users - e.g can see billing console
-    5. Use SCPs to control what regions each OU can provision into
+Make the app more production like 
+1. Delete the ASG/LB
+2. Port the app, code commit and monitoring to the dev account (use a dev branch)
+3. Deploy in dev account, vis a pipeline:
+    1. Bake the AMI and deploy to an ASG being an ALB with health checks and scaling (ie as before)
+    2. Update a dev.fqdn.com DNS entry to point to the ALB
+    3. Deploy a cert from ACM to the ALB
+    4. Separate pipeline to push content changes from code commit to EFS
+4. Deploy in test:
+    1. Create a test branch in code commit (in dev account)
+    2. Create a test pipeline (in test account) that deploys the website under test.fqdn.com with separate monitoring
+5. Deploy in production (as above)
+6. Make some changes in code commit:
+    1. Make some changes on dev branch
+    2. Redeploy content in dev & validate it doesn’t appear in test/prod
+    3. Merge to get branch & deploy to test / validate it doesn’t appear in prod
+    4. Merge to prod & validate it now appears in prod
+    5.  Validate dev users can’t manipulate the test account/website/pipelines & vice versa, but the admin users can
+7. Encrypt the EFS storage and any AMIs/S3 buckets (recreate if needed)
+8. Create a security account and forward all CloudTrail and CloudWatch logs to it + set up users and a log console

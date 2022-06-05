@@ -11,11 +11,12 @@ In suggested order of applying the projects
 * Initial [website](beginner/create_basic_website.md) creation
 
 ## Intermediate Projects:
-* Productionise the [account part 1](intermediate/productionise_account.md) 
-* Productionise the [website part 1](intermediate/productionise_app.md) and [part 2](intermediate/productionise_app2.md)
+* Productionise the [account](intermediate/productionise_account.md) 
+* Productionise the [website](intermediate/productionise_app.md) 
 * Disaster [scenarios](intermediate/disaster_scenarios.md) 
 
 ## Advanced Projects
-* Disaster [scenarios](advanced/disaster_scenarios.md)
+* Productionise the [website](advanced/productionise_app.md)
 * Productionise the [account](advanced/productionise_account.md) 
+* Disaster [scenarios](advanced/disaster_scenarios.md)
 * Get [hacked](advanced/get_hacked.md)

@@ -1,4 +1,4 @@
-Make the app more production like 
+# Make the app more production like 
 1. Delete the ASG/LB
 2. Port the app, code commit and monitoring to the dev account (use a dev branch)
 3. Deploy in dev account, vis a pipeline:
